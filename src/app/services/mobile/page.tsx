@@ -115,6 +115,63 @@ export default function MobileServicesPage() {
                 </div>
               ))}
             </div>
+
+            {/* Specialized Framework Pages Selector */}
+            <div className="mt-12 pt-8 border-t border-slate-200 dark:border-white/10">
+              <span className="font-mono text-xs uppercase tracking-widest text-cyan-500 font-semibold">
+                Explore Dedicated Framework Platforms
+              </span>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 mt-4">
+                {[
+                  {
+                    name: "Flutter Engineering",
+                    slug: "/services/mobile/flutter",
+                    tag: "120 FPS Impeller",
+                    color: "border-cyan-500/40 hover:border-cyan-400 hover:shadow-[0_0_20px_rgba(0,240,255,0.25)]",
+                    badge: "bg-cyan-500/10 text-cyan-400",
+                  },
+                  {
+                    name: "Native Android",
+                    slug: "/services/mobile/android",
+                    tag: "Kotlin & Compose",
+                    color: "border-emerald-500/40 hover:border-emerald-400 hover:shadow-[0_0_20px_rgba(16,185,129,0.25)]",
+                    badge: "bg-emerald-500/10 text-emerald-400",
+                  },
+                  {
+                    name: "Native iOS",
+                    slug: "/services/mobile/ios",
+                    tag: "SwiftUI & Apple HIG",
+                    color: "border-blue-500/40 hover:border-blue-400 hover:shadow-[0_0_20px_rgba(59,130,246,0.25)]",
+                    badge: "bg-blue-500/10 text-blue-400",
+                  },
+                  {
+                    name: "React Native",
+                    slug: "/services/mobile/react-native",
+                    tag: "TurboModules & C++",
+                    color: "border-fuchsia-500/40 hover:border-fuchsia-400 hover:shadow-[0_0_20px_rgba(217,70,239,0.25)]",
+                    badge: "bg-fuchsia-500/10 text-fuchsia-400",
+                  },
+                ].map((item) => (
+                  <Link
+                    key={item.slug}
+                    href={item.slug}
+                    className={`group rounded-xl border bg-white/60 dark:bg-black/40 p-4 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 ${item.color}`}
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className={`text-[10px] font-mono px-2 py-0.5 rounded-full ${item.badge}`}>
+                        {item.tag}
+                      </span>
+                      <svg className="h-4 w-4 text-slate-400 group-hover:text-white transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                      </svg>
+                    </div>
+                    <div className="mt-2 font-heading font-bold text-sm text-slate-900 dark:text-white group-hover:text-cyan-400 transition-colors">
+                      {item.name}
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>

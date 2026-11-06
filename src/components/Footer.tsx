@@ -95,6 +95,8 @@ export default function Footer() {
             <Link href="/services/mobile" className="font-mono text-[0.65rem] font-bold tracking-[0.1em] text-slate-500 uppercase hover:text-white transition-colors">Mobile Systems</Link>
             <Link href="/services/web" className="font-mono text-[0.65rem] font-bold tracking-[0.1em] text-slate-500 uppercase hover:text-white transition-colors">Web Platforms</Link>
             <Link href="/services/ai" className="font-mono text-[0.65rem] font-bold tracking-[0.1em] text-slate-500 uppercase hover:text-white transition-colors">AI / ML</Link>
+            <a href={assetPath("/sitemap.xml")} target="_blank" rel="noopener noreferrer" className="font-mono text-[0.65rem] font-bold tracking-[0.1em] text-slate-500 uppercase hover:text-cyan-400 transition-colors">Sitemap</a>
+            <a href={assetPath("/llms.txt")} target="_blank" rel="noopener noreferrer" className="font-mono text-[0.65rem] font-bold tracking-[0.1em] text-slate-500 uppercase hover:text-cyan-400 transition-colors">AI Docs (llms.txt)</a>
             <Link href="#contact" className="font-mono text-[0.65rem] font-bold tracking-[0.1em] text-slate-500 uppercase hover:text-white transition-colors">Get in Touch</Link>
           </div>
         </div>

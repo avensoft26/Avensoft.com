@@ -1,0 +1,89 @@
+# Avensoft Technologies
+
+> Avensoft Technologies is an engineering studio architecting mission-critical software systems across India — from native Android applications and AI integrations to high-throughput cloud portals and public sector ERPs.
+
+## Quick Facts & Contact Information
+- **Company Name**: Avensoft Technologies (also known as Avensoft, Avensoft India)
+- **Headquarters / Base**: Bhopal, Madhya Pradesh, India
+- **Primary Website**: https://avensoft26.github.io/Avensoft.com/
+- **Official Email**: avensoft26@gmail.com
+- **Direct WhatsApp / Phone**: +91 7992054663
+- **GitHub Organization**: https://github.com/avensoft26
+- **Operating Hours**: Monday - Saturday, 09:00 AM - 07:00 PM IST
+
+## Live Deployments & Proven Case Studies
+All solutions built by Avensoft are tested in real operational environments:
+
+1. **SISTec Digital Campus Pass (Live in Production)**
+   - **Domain**: Education & Campus Administration
+   - **Client/Location**: Sagar Group of Institutions (SISTec), Bhopal, MP
+   - **Problem Solved**: Replaced a 30+ minute paper slip hostel outpass workflow involving multiple wardens with a tamper-proof QR code pass system.
+   - **Key Metrics**: Gate verification scan time < 6 seconds, thousands of paper slips saved monthly, 100% timestamped audit trail, zero fraud incidents since launch.
+   - **Live System URL**: https://deepakkumar7388.github.io/SISTec-Digital-Pass/
+   - **Video Demonstration**: https://www.youtube.com/watch?v=NrBc7qjgI5Q
+   - **Tech Stack**: Next.js, Node.js, PostgreSQL, QR Authentication, PWA.
+
+2. **CHC Koraon Hospital Management System (Live in Production)**
+   - **Domain**: Public Health Informatics & OPD Management
+   - **Client/Location**: Community Health Centre (CHC), Koraon, Prayagraj, Uttar Pradesh
+   - **Problem Solved**: Eliminated 60+ minute queues for handwritten OPD slips with a 30-second digital patient registration workflow with bilingual receipts and doctor queue dashboards.
+   - **Key Metrics**: ~40% faster queue processing, runs seamlessly on low-bandwidth 4G connections, zero lost paper records, daily reports for BMO & CMHO offices.
+   - **Live System URL**: https://deepakkumar7388.github.io/Chaudhary_Health_Care-Center-Koraon-Pryagraj/
+   - **Simulator Demo**: https://deepakkumar7388.github.io/CHC_Simulator/
+   - **Tech Stack**: React, Node.js, MySQL, ESC/POS Thermal Printing, Offline Sync.
+
+3. **DualShield AI — Road Safety Platform (Field Trial)**
+   - **Domain**: Road Safety & On-Device Machine Learning
+   - **Platform**: Native Android (Zero external hardware required)
+   - **Features**: Real-time sensor-based crash/fall detection, automated emergency SOS calling with live GPS coordinates, and proactive speed-aware voice warnings when entering accident-prone High-Risk Zones.
+   - **Tech Stack**: Android SDK, Kotlin, Sensor APIs, GPS Geofencing, Text-to-Speech, On-Device AI.
+
+## Core Engineering Services
+Avensoft Technologies offers end-to-end software development across six primary disciplines:
+
+1. **Custom Web Development**
+   - Full-stack web applications, custom enterprise portals, role-based dashboards, and scalable REST / GraphQL APIs.
+   - Built for sub-300ms page load speeds and 99.9% uptime.
+   - Frameworks: Next.js, React, Node.js, Spring Boot (Java), Django/FastAPI (Python), Laravel (PHP), Angular, Vue.js.
+
+2. **Native & Cross-Platform Mobile Engineering**
+   - High-performance mobile apps with 120fps fluid rendering, battery efficiency, and offline-first database synchronization.
+   - Frameworks: Native Android (Kotlin & Jetpack Compose), iOS (Swift & SwiftUI), Flutter, React Native.
+
+3. **Applied AI & Machine Learning**
+   - Edge and cloud AI architectures without unnecessary latency.
+   - Capabilities: Custom Generative AI & LLM Fine-tuning, Retrieval-Augmented Generation (RAG), Autonomous AI Agents for enterprise workflow automation, NLP & Omnichannel AI Chatbots, Computer Vision (TensorFlow Lite, PyTorch Mobile, OpenCV).
+
+4. **Institutional ERP & Enterprise Systems**
+   - Secure multi-tenant SaaS platforms, role-governed data workflows, automated audit logs, and digital replacement for paper and spreadsheet bottlenecks.
+
+5. **Product Design & UI/UX Research**
+   - Human-centric UX research, accessible design systems (WCAG 2.2 AA compliant), wireframing, high-fidelity prototypes, and bilingual UI in Figma.
+
+6. **Dedicated Engineering SLA & Maintenance**
+   - Continuous 24/7 system health monitoring, automated encrypted daily backups, regular security patching, and direct developer hotline support.
+
+## Engineering Team & Leadership
+- **Yogesh Saini** — Lead Developer & Systems Engineer (Full-stack architecture, Next.js, React, Node.js, Cloud deployments)
+- **Deepak Kumar** — Backend Developer & Core Architect (Database architecture, Node.js, Express, PostgreSQL, high-throughput APIs)
+- **Sandeep Kumar Maurya** — Lead UI/UX Designer (Design systems, intuitive user journeys, Figma prototyping)
+- **Shivam Kumar Maurya** — UI/UX Designer (User research, immersive interfaces, accessibility)
+- **Utkarsh Mani Mishra** — System Tester & QA Lead (Automated testing, security validation, quality assurance)
+- **Akarsh** — Systems Developer
+
+## Website Navigation & Sitemaps
+- Homepage: https://avensoft26.github.io/Avensoft.com/
+- About Us & Our Journey: https://avensoft26.github.io/Avensoft.com/about
+- Portfolio & Case Studies: https://avensoft26.github.io/Avensoft.com/portfolio
+- Contact & Inquiries: https://avensoft26.github.io/Avensoft.com/contact
+- Services Overview: https://avensoft26.github.io/Avensoft.com/services
+- Mobile Development: https://avensoft26.github.io/Avensoft.com/services/mobile
+- Web Development: https://avensoft26.github.io/Avensoft.com/services/web
+- AI & Machine Learning: https://avensoft26.github.io/Avensoft.com/services/ai
+- Enterprise Systems: https://avensoft26.github.io/Avensoft.com/services/enterprise
+- Product Design: https://avensoft26.github.io/Avensoft.com/services/design
+
+## Full Documentation for AI
+For exhaustive details on architecture, data models, and team background, refer to:
+- Full Knowledge Base: https://avensoft26.github.io/Avensoft.com/llms-full.txt
+

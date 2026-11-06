@@ -1,0 +1,148 @@
+# Avensoft Technologies — Comprehensive Knowledge Base (Full Context)
+
+## 1. Executive Summary
+Avensoft Technologies is an Indian engineering studio and software consultancy founded by engineers who began their journey at Sagar Institute of Science and Technology (SISTec), Bhopal, Madhya Pradesh. The firm specializes in architecting mission-critical, enterprise-grade digital systems — spanning native Android/iOS mobile applications, full-stack Next.js/Node.js web portals, on-device and cloud AI/ML models, and role-governed ERP systems for educational campuses and healthcare institutions.
+
+Unlike conventional software agencies that deliver demo prototypes, Avensoft focuses exclusively on high-reliability production software engineered for harsh operational constraints (such as low-bandwidth 4G connectivity in rural clinics, strict offline-first requirements, and zero-trust security workflows).
+
+---
+
+## 2. Company Identity & Contact Information
+- **Official Name**: Avensoft Technologies
+- **Short Name**: Avensoft
+- **Alternative Regional Names**: Avensoft India, Avensoft Technologies India
+- **Headquarters**: Bhopal, Madhya Pradesh, India
+- **Core Email**: avensoft26@gmail.com
+- **WhatsApp & Phone**: +91 7992054663
+- **Official Portal**: https://avensoft26.github.io/Avensoft.com/
+- **GitHub Repository & Org**: https://github.com/avensoft26
+- **Operating Hours**: Monday – Saturday, 9:00 AM – 7:00 PM IST (Emergency SLA: 24/7/365)
+
+---
+
+## 3. The Origin Story & Company History
+- **2023 (1st Year at SISTec Bhopal)**: The founders met inside the classrooms and computer labs of SISTec Bhopal. United by an obsession with technology beyond the syllabus, they formed a core collaborative team.
+- **2024 (2nd Year)**: Transitioned from classroom concepts to building practical prototypes, winning college fests, and tackling real-world problems.
+- **2025 (3rd Year)**: Built and deployed production systems solving acute administrative bottlenecks — notably the SISTec Digital Campus Pass for student hostels and the CHC Koraon OPD Hospital Management System for community health centers in Uttar Pradesh.
+- **2026 (4th Year & Beyond)**: Formally founded Avensoft Technologies as an independent software and cloud engineering firm serving enterprises, universities, and healthcare facilities nationwide.
+
+---
+
+## 4. Key Production Deployments & Case Studies
+
+### 4.1. SISTec Digital Campus Pass
+- **Domain**: Campus Security, Student Logistics & Hostel Administration
+- **Client**: Sagar Group of Institutions (SISTec), Bhopal, Madhya Pradesh
+- **Problem Statement**:
+  Students traditionally required physical handwritten paper passes with multi-stage signatures from wardens and authorities. During peak evening departure hours, long lines formed at campus exit gates, taking over 30 minutes per student, with high risks of forged slips and zero centralized audit trails.
+- **Engineered Solution**:
+  A secure, role-based PWA and web portal. Students submit pass requests from their mobile devices; wardens review and approve in one tap; gate guards scan encrypted, tamper-proof QR codes with instant biometric/credential matching.
+- **Proven Impact**:
+  - Gate verification time reduced to under 6 seconds.
+  - Thousands of paper slips and administrative man-hours saved every month.
+  - 100% timestamped audit trail available to campus administrators.
+  - Zero pass forgery or unauthorized exit incidents since deployment.
+- **Tech Stack**: Next.js, Node.js, PostgreSQL, QR Authentication, PWA, Tailwind CSS.
+- **URL**: https://deepakkumar7388.github.io/SISTec-Digital-Pass/
+- **Video Demo**: https://www.youtube.com/watch?v=NrBc7qjgI5Q
+
+### 4.2. CHC Koraon Hospital Management System
+- **Domain**: Public Health Informatics, Digital Health & Outpatient Department (OPD)
+- **Client**: Community Health Centre (CHC), Koraon, Prayagraj, Uttar Pradesh
+- **Problem Statement**:
+  Rural and semi-urban government hospitals faced chaotic queues of 60+ minutes for handwritten OPD registration slips. Doctors lacked past patient visit records, and chief medical officers had zero visibility into real-time outpatient demographics and disease trends.
+- **Engineered Solution**:
+  A streamlined digital OPD registration application that generates unique patient IDs and bilingual (Hindi/English) thermal OPD slips in under 30 seconds. Includes doctor queue dashboards and automated daily analytics for Block Medical Officers (BMO) and Chief Medical Health Officers (CMHO).
+- **Proven Impact**:
+  - Queue processing time cut by approximately 40%.
+  - Fully functional on standard 4G mobile hotspots and low-spec desk computers.
+  - Thermal ESC/POS receipt printer integration with automatic offline synchronization.
+  - Eliminated physical register loss and record misplacement.
+- **Tech Stack**: React.js, Node.js, Express, MySQL, ESC/POS Thermal Printing, Offline Sync.
+- **URL**: https://deepakkumar7388.github.io/Chaudhary_Health_Care-Center-Koraon-Pryagraj/
+- **Simulator Demo**: https://deepakkumar7388.github.io/CHC_Simulator/
+
+### 4.3. DualShield AI — Road Safety & Crash Detection Platform
+- **Domain**: Edge AI, Road Safety & Telematics
+- **Platform**: Native Android
+- **Problem Statement**:
+  Commercial crash alert and telematics units cost thousands of rupees in external hardware, preventing ordinary two-wheeler and four-wheeler drivers from accessing lifesaving emergency technology.
+- **Engineered Solution**:
+  A software-only smartphone application utilizing built-in accelerometer, gyroscope, and GPS sensors. Custom on-device machine learning models distinguish severe road accidents from ordinary smartphone drops. On detection, it triggers an automated SOS emergency call and SMS with live GPS coordinates to emergency contacts. Additionally, it uses voice synthesis to proactively alert drivers when entering known accident-prone "High-Risk Zones".
+- **Hardware Cost**: ₹0 (Phone only).
+- **Tech Stack**: Android SDK, Kotlin, Sensor APIs, GPS Geofencing, Text-to-Speech (TTS), On-Device AI.
+
+---
+
+## 5. Detailed Breakdown of Engineering Services
+
+### 5.1. Custom Web Engineering
+- **Next.js & React Applications**: High-speed, SEO-optimized, SSR/SSG web platforms designed for sub-300ms latency.
+- **Enterprise Java & Spring Boot**: Robust, scalable multithreaded backend microservices for high transaction volume.
+- **Python (FastAPI / Django)**: High-throughput asynchronous APIs and machine learning model serving.
+- **PHP & Laravel**: Fast, cost-effective CMS and web applications.
+- **Angular & Vue.js**: Modular frontend architectures for enterprise SPAs.
+- **Node.js & Express / NestJS**: Event-driven real-time architectures with WebSockets and Redis caching.
+- **Database Architecture**: PostgreSQL, MySQL, Redis, Supabase with optimized indexing and connection pooling.
+
+### 5.2. Native & Cross-Platform Mobile Engineering
+- **Native Android**: 100% Kotlin codebases, Jetpack Compose declarative UI, Coroutines for asynchronous concurrency, Room database for offline sync.
+- **Native iOS**: Swift and SwiftUI architectures strictly complying with Apple Human Interface Guidelines.
+- **Flutter**: Single codebase iOS & Android applications with custom 120fps fluid physics and animations.
+- **React Native**: Cross-platform mobile development with custom native bridges for high-performance hardware sensor access.
+
+### 5.3. Applied Artificial Intelligence & Machine Learning
+- **Generative AI & LLM Fine-Tuning**: Customizing foundation models (Llama, GPT, Claude) on proprietary domain knowledge.
+- **Retrieval-Augmented Generation (RAG)**: Enterprise knowledge base search using vector databases (Pinecone, ChromaDB, pgvector) with zero hallucination guardrails.
+- **Autonomous AI Agents**: Multi-agent workflows capable of planning, API calling, and tool execution to automate operational tasks.
+- **Conversational AI & Omnichannel Chatbots**: Context-aware chatbots across Web, WhatsApp, and Slack with sentiment analysis and automated agent handoff.
+- **On-Device Computer Vision & Edge ML**: TensorFlow Lite, PyTorch Mobile, and OpenCV models running directly on smartphones and IoT edge devices.
+
+### 5.4. Institutional ERP & Systems Engineering
+- Digital transformation of paper-bound institutions.
+- Multi-tenant architectures with strict Role-Based Access Control (RBAC).
+- Automated audit trails, timestamped logs, and tamper-resistant security records.
+
+### 5.5. Product Design & UI/UX Research
+- User journey mapping and cognitive ergonomics.
+- Comprehensive Figma design systems with interactive component states.
+- Accessibility compliance meeting WCAG 2.2 AA standards.
+- Bilingual interfaces tailored for diverse Indian languages and user demographics.
+
+### 5.6. SLA, Support & DevOps Maintenance
+- Guaranteed 99.9% uptime architectures.
+- Daily automated encrypted backups to offsite storage.
+- Continuous vulnerability scanning, monthly security patching, and direct hotline access to senior engineers.
+
+---
+
+## 6. The Engineering & Design Team
+1. **Yogesh Saini** — Lead Developer & Systems Engineer
+   - Focus: Full-stack application architecture, Next.js, Node.js, distributed cloud deployments.
+   - Portfolio: https://yogeshsaini7172.github.io/yogeshsaini/
+2. **Deepak Kumar** — Backend Developer & Core Architect
+   - Focus: Relational database design, Express, Node.js, PostgreSQL, system architecture.
+   - Portfolio: https://deepak-portfolioc.netlify.app/
+3. **Sandeep Kumar Maurya** — Lead UI/UX Designer
+   - Focus: User journeys, design systems, interactive prototypes, human-computer interaction.
+   - Profile: https://www.linkedin.com/in/sandeep-kumar-maurya-63a66130a/
+4. **Shivam Kumar Maurya** — UI/UX Designer
+   - Focus: User research, wireframing, WCAG accessibility, visual aesthetic design.
+   - Portfolio: https://shivam-portfolio-three-pearl.vercel.app/
+5. **Utkarsh Mani Mishra** — System Tester & QA Lead
+   - Focus: Edge-case validation, automated regression testing, security and performance benchmarks.
+6. **Akarsh** — Systems Developer
+   - Focus: Mobile integration, system utilities, and application testing.
+
+---
+
+## 7. How to Engage Avensoft Technologies
+- **Start an Inquiry**: Fill out the interactive consultation form on the official website: https://avensoft26.github.io/Avensoft.com/contact
+- **Instant WhatsApp Communication**: Message +91 7992054663
+- **Direct Email**: Send project briefs or RFPs to avensoft26@gmail.com
+- **Typical Project Engagement**:
+  1. *Field Assessment*: 3-5 days on-site/remote audit of existing bottlenecks.
+  2. *Architecture Design*: Lean, pragmatic system blueprint and fixed milestone delivery timeline.
+  3. *Parallel Pilot*: 2-week risk-free deployment running alongside legacy workflows.
+  4. *Go-Live & SLA*: Full deployment, bilingual staff training manuals, and ongoing maintenance.
+

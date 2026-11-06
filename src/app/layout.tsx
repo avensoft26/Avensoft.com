@@ -98,25 +98,166 @@ export const metadata: Metadata = {
     ],
     apple: assetPath("/apple-icon.png?v=2"),
   },
+  category: "technology",
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+  },
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Avensoft Technologies",
-  alternateName: ["Avensoft", "Avensoft India", "Avensoft Technologies India"],
-  url: siteUrl,
-  logo: `${siteUrl}/AVENSOFT-dark-theme.png`,
-  description:
-    "Engineering studio architecting mission-critical software systems across India — native Android applications, modern AI integrations, and cloud portals.",
-  email: "avensoft26@gmail.com",
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Bhopal",
-    addressRegion: "Madhya Pradesh",
-    addressCountry: "IN",
-  },
-  sameAs: ["https://github.com/avensoft26"],
+  "@graph": [
+    {
+      "@type": ["Organization", "ProfessionalService"],
+      "@id": `${siteUrl}/#organization`,
+      name: "Avensoft Technologies",
+      alternateName: ["Avensoft", "Avensoft India", "Avensoft Technologies India"],
+      url: siteUrl,
+      logo: `${siteUrl}/AVENSOFT-dark-theme.png`,
+      image: `${siteUrl}/og-image.jpg`,
+      description:
+        "Engineering studio architecting mission-critical software systems across India — native Android applications, modern AI integrations, and cloud portals.",
+      email: "avensoft26@gmail.com",
+      telephone: "+917992054663",
+      priceRange: "$$",
+      foundingLocation: {
+        "@type": "Place",
+        name: "Bhopal, Madhya Pradesh, India",
+      },
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Bhopal",
+        addressRegion: "Madhya Pradesh",
+        addressCountry: "IN",
+      },
+      contactPoint: [
+        {
+          "@type": "ContactPoint",
+          telephone: "+917992054663",
+          contactType: "customer service",
+          email: "avensoft26@gmail.com",
+          availableLanguage: ["English", "Hindi"],
+        },
+      ],
+      sameAs: [
+        "https://github.com/avensoft26",
+        "https://deepakkumar7388.github.io/SISTec-Digital-Pass/",
+        "https://deepakkumar7388.github.io/Chaudhary_Health_Care-Center-Koraon-Pryagraj/",
+      ],
+      knowsAbout: [
+        "Custom Web Development",
+        "Native Android Kotlin",
+        "iOS Swift Development",
+        "Flutter Cross-Platform",
+        "React Native",
+        "Next.js Development",
+        "Applied AI & Machine Learning",
+        "Generative AI & LLM Integrations",
+        "Retrieval-Augmented Generation (RAG)",
+        "Autonomous AI Agents",
+        "Conversational AI Chatbots",
+        "Institutional ERP & Campus Management",
+        "Healthcare OPD Hospital Systems",
+        "UI/UX Design Systems",
+      ],
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Avensoft Engineering Services",
+        itemListElement: [
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: "Custom Web Development",
+              description: "High-throughput Next.js, React, Node.js portals and APIs optimized for sub-300ms speed.",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: "Native Mobile Engineering",
+              description: "High-performance Kotlin, Jetpack Compose, Swift, and Flutter mobile applications.",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: "Applied AI & Computer Vision",
+              description: "Generative AI, LLM fine-tuning, RAG pipelines, and edge-deployed computer vision models.",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: "Institutional ERP & Systems",
+              description: "Multi-tenant role-governed ERP systems for campus administration and public hospitals.",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: "Product Design & UX Research",
+              description: "Accessible, human-centric design systems and UI/UX prototypes in Figma.",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Service",
+              name: "Support, SLA & Maintenance",
+              description: "24/7 system health monitoring, encrypted backups, and high-availability engineering retainers.",
+            },
+          },
+        ],
+      },
+      founder: [
+        {
+          "@type": "Person",
+          name: "Yogesh Saini",
+          jobTitle: "Lead Developer & Systems Engineer",
+          sameAs: "https://yogeshsaini7172.github.io/yogeshsaini/",
+        },
+        {
+          "@type": "Person",
+          name: "Deepak Kumar",
+          jobTitle: "Backend Developer & Core Architect",
+          sameAs: "https://deepak-portfolioc.netlify.app/",
+        },
+        {
+          "@type": "Person",
+          name: "Sandeep Kumar Maurya",
+          jobTitle: "Lead UI/UX Designer",
+          sameAs: "https://www.linkedin.com/in/sandeep-kumar-maurya-63a66130a/",
+        },
+        {
+          "@type": "Person",
+          name: "Shivam Kumar Maurya",
+          jobTitle: "UI/UX Designer",
+          sameAs: "https://shivam-portfolio-three-pearl.vercel.app/",
+        },
+        {
+          "@type": "Person",
+          name: "Utkarsh Mani Mishra",
+          jobTitle: "System Tester & QA Lead",
+        },
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${siteUrl}/#website`,
+      url: siteUrl,
+      name: "Avensoft Technologies",
+      description: "Official portal of Avensoft Technologies — Software & Cloud Systems",
+      publisher: {
+        "@id": `${siteUrl}/#organization`,
+      },
+      inLanguage: "en-IN",
+    },
+  ],
 };
 
 export default function RootLayout({
@@ -129,6 +270,10 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
     >
+      <head>
+        <link rel="sitemap" type="application/xml" title="Sitemap" href={`${siteUrl}/sitemap.xml`} />
+        <link rel="alternate" type="text/plain" href={assetPath("/llms.txt")} title="LLMs.txt" />
+      </head>
       <body className="min-h-full flex flex-col">
         <script
           type="application/ld+json"

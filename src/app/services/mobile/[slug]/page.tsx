@@ -65,8 +65,9 @@ export function generateStaticParams() {
   }));
 }
 
-export default function MobileSubServicePage({ params }: { params: { slug: string } }) {
-  const service = mobileSubServices[params.slug as keyof typeof mobileSubServices];
+export default async function MobileSubServicePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const service = mobileSubServices[slug as keyof typeof mobileSubServices];
 
   if (!service) {
     notFound();
