@@ -29,13 +29,6 @@ const getTechColor = (cat: string) => {
 
 const team = [
   {
-    initials: "DK", name: "Deepak Kumar", role: "Co-Founder, Backend Developer & Core Architect",
-    desc: "Architects scalable backend infrastructure and secure database systems for high-throughput endpoints.",
-    skills: ["Node.js", "Express", "PostgreSQL", "System Architecture"],
-    cat: "backend", hoverBorder: "hover:border-cyan-400 hover:shadow-[0_0_35px_rgba(6,182,212,0.35)]", img: assetPath("/deepak.jpeg"),
-    portfolio: "https://deepak-portfolioc.netlify.app/"
-  },
-  {
     initials: "YS", name: "Yogesh Saini", role: "Lead Developer & Systems Engineer",
     desc: "Directs full-stack application lifecycle and secure multi-role institutional workflows.",
     skills: ["Next.js", "React", "Node.js", "Cloud Deploys"],
@@ -48,6 +41,13 @@ const team = [
     skills: ["Figma", "UI/UX", "Design Systems", "Prototyping"],
     cat: "design", hoverBorder: "hover:border-fuchsia-400 hover:shadow-[0_0_35px_rgba(217,70,239,0.35)]", img: assetPath("/sandeep.jpeg"),
     portfolio: "https://www.linkedin.com/in/sandeep-kumar-maurya-63a66130a/?isSelfProfile=false"
+  },
+  {
+    initials: "DK", name: "Deepak Kumar", role: "Co-Founder, Backend Developer & Core Architect",
+    desc: "Architects scalable backend infrastructure and secure database systems for high-throughput endpoints.",
+    skills: ["Node.js", "Express", "PostgreSQL", "System Architecture"],
+    cat: "backend", hoverBorder: "hover:border-cyan-400 hover:shadow-[0_0_35px_rgba(6,182,212,0.35)]", img: assetPath("/deepak.jpeg"),
+    portfolio: "https://deepak-portfolioc.netlify.app/"
   },
   {
     initials: "SM", name: "Shivam Kumar Maurya", role: "UI/UX Designer",
