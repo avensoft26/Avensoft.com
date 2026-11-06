@@ -217,15 +217,15 @@ const jsonLd = {
       founder: [
         {
           "@type": "Person",
-          name: "Yogesh Saini",
-          jobTitle: "Lead Developer & Systems Engineer",
-          sameAs: "https://yogeshsaini7172.github.io/yogeshsaini/",
+          name: "Deepak Kumar",
+          jobTitle: "Co-Founder, Backend Developer & Core Architect",
+          sameAs: "https://deepak-portfolioc.netlify.app/",
         },
         {
           "@type": "Person",
-          name: "Deepak Kumar",
-          jobTitle: "Backend Developer & Core Architect",
-          sameAs: "https://deepak-portfolioc.netlify.app/",
+          name: "Yogesh Saini",
+          jobTitle: "Lead Developer & Systems Engineer",
+          sameAs: "https://yogeshsaini7172.github.io/yogeshsaini/",
         },
         {
           "@type": "Person",

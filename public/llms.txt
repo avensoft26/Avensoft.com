@@ -64,8 +64,8 @@ Avensoft Technologies offers end-to-end software development across six primary 
    - Continuous 24/7 system health monitoring, automated encrypted daily backups, regular security patching, and direct developer hotline support.
 
 ## Engineering Team & Leadership
+- **Deepak Kumar** — Co-Founder, Backend Developer & Core Architect (Database architecture, Node.js, Express, PostgreSQL, high-throughput APIs, SISTec Digital Pass & CHC Koraon creator)
 - **Yogesh Saini** — Lead Developer & Systems Engineer (Full-stack architecture, Next.js, React, Node.js, Cloud deployments)
-- **Deepak Kumar** — Backend Developer & Core Architect (Database architecture, Node.js, Express, PostgreSQL, high-throughput APIs)
 - **Sandeep Kumar Maurya** — Lead UI/UX Designer (Design systems, intuitive user journeys, Figma prototyping)
 - **Shivam Kumar Maurya** — UI/UX Designer (User research, immersive interfaces, accessibility)
 - **Utkarsh Mani Mishra** — System Tester & QA Lead (Automated testing, security validation, quality assurance)

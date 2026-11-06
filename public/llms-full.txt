@@ -117,12 +117,12 @@ Unlike conventional software agencies that deliver demo prototypes, Avensoft foc
 ---
 
 ## 6. The Engineering & Design Team
-1. **Yogesh Saini** — Lead Developer & Systems Engineer
+1. **Deepak Kumar** — Co-Founder, Backend Developer & Core Architect
+   - Focus: Relational database design, Express, Node.js, PostgreSQL, system architecture, SISTec Digital Pass & CHC Koraon creator.
+   - Portfolio: https://deepak-portfolioc.netlify.app/
+2. **Yogesh Saini** — Lead Developer & Systems Engineer
    - Focus: Full-stack application architecture, Next.js, Node.js, distributed cloud deployments.
    - Portfolio: https://yogeshsaini7172.github.io/yogeshsaini/
-2. **Deepak Kumar** — Backend Developer & Core Architect
-   - Focus: Relational database design, Express, Node.js, PostgreSQL, system architecture.
-   - Portfolio: https://deepak-portfolioc.netlify.app/
 3. **Sandeep Kumar Maurya** — Lead UI/UX Designer
    - Focus: User journeys, design systems, interactive prototypes, human-computer interaction.
    - Profile: https://www.linkedin.com/in/sandeep-kumar-maurya-63a66130a/
